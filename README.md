@@ -1,27 +1,33 @@
-# Lab11
+# Розгортання проекту на Netlify
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.2.
+Цей документ надає кроки для розгортання вашого веб-проекту на хостингу Netlify.
 
-## Development server
+## Крок 1: Реєстрація на Netlify
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[зареєструвались тут](https://www.netlify.com/).
 
-## Code scaffolding
+## Крок 2: Додавання нового сайту
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Після входу у нас буде панель керування. Натискаємо кнопку "New site from Git".
 
-## Build
+2. Вибераємо репозиторій вашого проекту і натисніть "Connect".
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Крок 3: Налаштування білда
 
-## Running unit tests
+1. Оберіть відповідний бранч `master`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Вказати команду для білда `npm run build`
 
-## Running end-to-end tests
+3. Вказати папку зі збіркою `dist` 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Крок 4: Запуск розгортання
 
-## Further help
+Натискаймо кнопку "Deploy site". Netlify автоматично визначить конфігурацію вашого проекту і розпочне процес розгортання.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Крок 5: Перевірка розгортання
+
+Після завершення розгортання, сайт буде доступний за зазначеним доменом (https://fancy-cocada-7900d9.netlify.app/).
+
+Готово! Ваш веб-проект успішно розгорнуто на Netlify.
+
+
